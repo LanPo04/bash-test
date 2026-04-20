@@ -2,10 +2,9 @@
 
 echo "Hello from Bash app!"
 
-for i in {1..5}
+while true
 do
-  echo "Tick $i"
-  sleep 1
+    echo "Hello world"
+    sleep 10
 done
 
-echo "Bash app finished."
